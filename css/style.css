@@ -54,6 +54,9 @@ li:first-child {
     vertical-align: top;
 }
 
+p:target { background: yellow; }
+
+
 /* ----------------------------------------------------- */
 /* | Below is copied from Google Fonts (thanks google) | */
 /* ----------------------------------------------------- */
