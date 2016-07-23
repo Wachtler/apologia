@@ -37,6 +37,10 @@ li:first-child {
     height:40px;
 }
 
+.top h1 {
+    margin-left:15px;
+}
+
 /* ----------------------------------------------------- */
 /* | Below is copied from Google Fonts (thanks google) | */
 /* ----------------------------------------------------- */
