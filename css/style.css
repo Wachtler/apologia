@@ -35,6 +35,10 @@ li:first-child {
     float:top;
 }
 
+.top div {
+    position:absolute;
+}
+
 .top div h1 {
     text-align:center;
 }
