@@ -2,9 +2,6 @@ body {
     font-family: Droid Sans, Arial, Helvetica, sans-serif;
     margin-left:15px;
 }
-.small {
-    font-size:14px;
-}
 li{
     margin-top: 1px;
 }
@@ -18,6 +15,22 @@ li:first-child {
     border:1px;
     background-color:#f2f1e7;
 }
+
+.small {
+    font-size:14px;
+}
+
+.float_center {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.main {
+    margin-left:275px;
+}
+
 .top{
     float:top;
     background-color:#329999;
