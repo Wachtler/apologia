@@ -36,7 +36,7 @@ li:first-child {
 }
 
 .top div {
-    vertical-align: top;
+    
 }
 
 .top div h1 {
@@ -51,6 +51,7 @@ li:first-child {
 .top .subtitle {
     background-color:#84c1c1;
     height:50px;
+    vertical-align: top;
 }
 
 /* ----------------------------------------------------- */
