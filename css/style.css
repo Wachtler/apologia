@@ -33,12 +33,20 @@ li:first-child {
 
 .top{
     float:top;
+}
+
+.top div h1 {
+    text-align:center;
+}
+
+.top .title {
     background-color:#329999;
     height:50px;
 }
 
-.top h1 {
-    text-align:center;
+.top .subtitle {
+    background-color:#84c1c1;
+    height:50px;
 }
 
 /* ----------------------------------------------------- */
