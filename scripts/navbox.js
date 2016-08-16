@@ -60,11 +60,13 @@ navbox = `
 						<a href="./module16.html" class="small">MODULE #16: An Introduction to Astrophysics	</a>
 					</li>
 				</ul>
-			</div>`
+			</div>`;
 	
 function addNavbox(){
 	// Save current innerHTML
-	currentHTML = document.getElementsByClassName("container")[0].innerHTML
+	currentHTML = document.getElementsByClassName("container")[0].innerHTML;
 	// Prepend.
-	document.getElementsByClassName("container")[0].innerHTML = navbox + currentHTML
-}
+	document.getElementsByClassName("container")[0].innerHTML = navbox + currentHTML;
+};
+
+window.onload = addNavbox;
