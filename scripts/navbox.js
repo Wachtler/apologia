@@ -2,6 +2,7 @@ navbox = `
       <div class="navbox">
 				<h3>Table of Contents</h3>
 				<ul>
+					<li><a href="./">Main Page</a></li>
 					<li><a href="./syllabus.html">Syllabus</a></li>
 					<li><a href="./calendar.html">Calendar</a></li>
 					<li><a href="./weekly.html">Weekly Assignments</a></li>
