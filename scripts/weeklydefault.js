@@ -1,17 +1,3 @@
-function addLoadEvent(func) {
-  var oldonload = window.onload;
-  if (typeof window.onload != 'function') {
-    window.onload = func;
-  } else {
-    window.onload = function() {
-      if (oldonload) {
-        oldonload();
-      }
-      func();
-    }
-  }
-}
-
 const getWeekNumber = () => {
     let currentDate = new Date();
     let dates = [
@@ -42,4 +28,9 @@ const getWeekNumber = () => {
     return 0;
 } // Shoutout to Conor O'Brien for helping with this a lot! (aka he wrote most of that getWeekNumber func)
 
-addLoadEvent(function (){document.getElementById("embeddedlist").src="./embed/weeklyembed" + getWeekNumber() + ".html"});
+window.addEventListener("load", function(){
+    let sourceLocation = "./embed/weeklyembed";
+    sourceLocation += getWeekNumber();
+    sourceLocation += ".html"
+    document.getElementById("embeddedlist").src = sourceLocation;
+});

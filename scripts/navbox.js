@@ -84,4 +84,4 @@ function addNavbox(){
 	document.getElementsByClassName("container")[0].innerHTML = navbox + currentHTML;
 };
 
-addLoadEvent(addNavbox);
+window.addEventListener("load",addNavbox);

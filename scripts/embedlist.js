@@ -23,4 +23,4 @@ function addEmbedList(){
 	document.getElementsByClassName("container")[0].innerHTML = currentHTML + embedlist;
 };
 
-addLoadEvent(addEmbedList);
+window.addEventListener("load",addEmbedList);
