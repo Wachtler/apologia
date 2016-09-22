@@ -33,7 +33,7 @@ const getWeekNumber = () => {
         [ "2017", "0",  "23" ]
     ];
     for(let i = 1; i < dates.length; i++){
-        let [year, month, day] = dates[i];
+        let [year, month, day] = dates[i-1];
         if(currentDate < new Date(year, month, day))
             return i;
     }
