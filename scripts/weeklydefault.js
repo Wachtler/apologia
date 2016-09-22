@@ -15,6 +15,7 @@ function addLoadEvent(func) {
 const getWeekNumber = () => {
     let currentDate = new Date();
     let dates = [
+    	[ "2016", "8",  "5" ], // will never happen unless you seriously broke your computer time
         [ "2016", "8",  "12" ],
         [ "2016", "8",  "19" ],
         [ "2016", "8",  "26" ],
