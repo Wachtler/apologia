@@ -1,3 +1,17 @@
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+
 navbox = `
       <div class="navbox">
 				<h3>Table of Contents</h3>
@@ -70,4 +84,4 @@ function addNavbox(){
 	document.getElementsByClassName("container")[0].innerHTML = navbox + currentHTML;
 };
 
-window.onload = addNavbox;
+addLoadEvent(addNavbox);
