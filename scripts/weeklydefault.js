@@ -32,14 +32,14 @@ const getWeekNumber = () => {
         [ "2017", "0",  "17" ],
         [ "2017", "0",  "23" ]
     ];
-    for(let i = 1; i < dates.length; i++){
-        let [year, month, day] = dates[i-1];
+    for(let i = 0; i < dates.length; i++){
+        let [year, month, day] = dates[i];
         if(currentDate < new Date(year, month, day))
             return i;
     }
     
     // fail-case--zero
     return 0;
-}
+} // Shoutout to Conor O'Brien for helping with this a lot! (aka he wrote most of that getWeekNumber func)
 
 addLoadEvent(function (){document.getElementById("embeddedlist").src="./embed/weeklyembed" + getWeekNumber() + ".html"});
