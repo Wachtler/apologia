@@ -37,4 +37,4 @@ function getWeekNumber(){
 	return x;
 }
 
-addLoadEvent(function (){document.getElementById("embeddedlist").src="./embed/weeklyembed" + getWeekNumber() + ".html");
+addLoadEvent(function (){document.getElementById("embeddedlist").src="./embed/weeklyembed" + getWeekNumber() + ".html"});
