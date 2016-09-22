@@ -15,7 +15,6 @@ function addLoadEvent(func) {
 const getWeekNumber = () => {
     let currentDate = new Date();
     let dates = [
-    	[ "2016", "8",  "5" ], // will never happen unless you seriously broke your computer time
         [ "2016", "8",  "12" ],
         [ "2016", "8",  "19" ],
         [ "2016", "8",  "26" ],
@@ -33,10 +32,10 @@ const getWeekNumber = () => {
         [ "2017", "0",  "17" ],
         [ "2017", "0",  "23" ]
     ];
-    for(let i = 0; i < dates.length; i++){
+    for(let i = 1; i < dates.length; i++){
         let [year, month, day] = dates[i];
         if(currentDate < new Date(year, month, day))
-            return i + 1;
+            return i;
     }
     
     // fail-case--zero
