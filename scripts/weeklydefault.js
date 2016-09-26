@@ -1,6 +1,6 @@
-const getWeekNumber = () => {
-    let currentDate = new Date();
-    let dates = [
+function getWeekNumber(){
+    var currentDate = new Date();
+    var dates = [
         [ "2016", "8",  "12" ],
         [ "2016", "8",  "19" ],
         [ "2016", "8",  "26" ],
@@ -18,8 +18,11 @@ const getWeekNumber = () => {
         [ "2017", "0",  "17" ],
         [ "2017", "0",  "23" ]
     ];
-    for(let i = 0; i < dates.length; i++){
-        let [year, month, day] = dates[i];
+    for(var i = 0; i < dates.length; i++){
+        var item  = dates[i];
+        var year  = item[0];
+        var month = item[1];
+        var day   = item[2];
         if(currentDate < new Date(year, month, day))
             return i;
     }
