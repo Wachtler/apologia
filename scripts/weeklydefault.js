@@ -32,7 +32,7 @@ function getWeekNumber(){
 } // Shoutout to Conor O'Brien for helping with this a lot! (aka he wrote most of that getWeekNumber func)
 
 window.addEventListener("load", function(){
-    let sourceLocation = "./embed/weeklyembed";
+    var sourceLocation = "./embed/weeklyembed";
     sourceLocation += getWeekNumber();
     sourceLocation += ".html"
     document.getElementById("embeddedlist").src = sourceLocation;
