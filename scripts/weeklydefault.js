@@ -16,7 +16,20 @@ function getWeekNumber(){
         [ "2016", "11", "12" ],
         [ "2017", "0",  "9"  ],
         [ "2017", "0",  "17" ],
-        [ "2017", "0",  "23" ]
+        [ "2017", "0",  "23" ],
+        [ "2017", "0",  "30" ],
+        [ "2017", "1",  "6"  ],
+        [ "2017", "1",  "13" ],
+        [ "2017", "1",  "20" ],
+        [ "2017", "1",  "27" ],
+        [ "2017", "2",  "6"  ],
+        [ "2017", "2",  "13" ],
+        [ "2017", "2",  "20" ],
+        [ "2017", "2",  "27" ],
+        [ "2017", "3",  "3" ],
+        [ "2017", "3",  "10" ],
+        [ "2017", "3",  "17" ],
+
     ];
     for(var i = 0; i < dates.length; i++){
         var item  = dates[i];
@@ -36,4 +49,5 @@ window.addEventListener("load", function(){
     sourceLocation += getWeekNumber();
     sourceLocation += ".html"
     document.getElementById("embeddedlist").src = sourceLocation;
+    console.log(SourceLocation);
 });
