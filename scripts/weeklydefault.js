@@ -1,8 +1,8 @@
 "use strict";
 
 function getWeekNumber(){
-    var currentDate = new Date();
-    var dates = [
+    let currentDate = new Date();
+    let dates = [
         [ "2016", "8",  "12" ],
         [ "2016", "8",  "19" ],
         [ "2016", "8",  "26" ],
@@ -39,10 +39,10 @@ function getWeekNumber(){
 
     ];
     for (var i = 0; i < dates.length; i++) {
-        var item = dates[i];
-        var year = item[0];
-        var month = item[1];
-        var day = item[2];
+        let item = dates[i];
+        let year = item[0];
+        let month = item[1];
+        let day = item[2];
         if (currentDate < new Date(year, month, day)) return i;
     }
 
@@ -51,9 +51,8 @@ function getWeekNumber(){
 } // Shoutout to Conor O'Brien for helping with this a lot! (aka he wrote most of that getWeekNumber func)
 
 window.addEventListener("load", function () {
-    var sourceLocation = "./embed/weeklyembed";
+    let sourceLocation = "./embed/weeklyembed";
     sourceLocation += getWeekNumber();
     sourceLocation += ".html";
     document.getElementById("embeddedlist").src = sourceLocation;
-    console.log(sourceLocation);
 });
