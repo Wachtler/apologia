@@ -67,7 +67,7 @@ let navbox = `
 
 function addNavbox() {
     // Save current innerHTML
-    currentHTML = document.getElementsByClassName("container")[0].innerHTML;
+    let currentHTML = document.getElementsByClassName("container")[0].innerHTML;
     // Prepend.
     document.getElementsByClassName("container")[0].innerHTML = navbox + currentHTML;
 };
