@@ -1,6 +1,6 @@
 "use strict";
 
-navbox = `
+let navbox = `
       <div class="navbox">
                 <h3>Table of Contents</h3>
                 <ul>
