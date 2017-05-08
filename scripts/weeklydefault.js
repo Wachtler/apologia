@@ -1,8 +1,8 @@
 "use strict";
 
 function getWeekNumber(){
-    let currentDate = new Date();
-    let dates = [
+    const currentDate = new Date();
+    const dates = [
         [ "2016", "8",  "13" ],
         [ "2016", "8",  "20" ],
         [ "2016", "8",  "27" ],
@@ -39,7 +39,7 @@ function getWeekNumber(){
 
     ];
     for (var i = 0; i < dates.length; i++) {
-        let item = dates[i];
+        const item = dates[i];
         let year = item[0];
         let month = item[1];
         let day = item[2];
@@ -51,7 +51,7 @@ function getWeekNumber(){
 } // Shoutout to Conor O'Brien for helping with this a lot! (aka he wrote most of that getWeekNumber func)
 
 window.addEventListener("load", function () {
-    let sourceLocation = "./embed/weeklyembed";
+    const sourceLocation = "./embed/weeklyembed";
     sourceLocation += getWeekNumber();
     sourceLocation += ".html";
     document.getElementById("embeddedlist").src = sourceLocation;
