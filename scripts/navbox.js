@@ -1,5 +1,5 @@
 "use strict";
-
+var nav;
 let chemnavbox = `
       <div class="navbox">
                 <h3>Table of Contents</h3>
