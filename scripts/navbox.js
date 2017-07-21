@@ -4,7 +4,8 @@ let chemnavbox = `
       <div class="navbox">
                 <h3>Table of Contents</h3>
                 <ul>
-                    <li><a href="./">DDC Home Page</a></li>
+                    <li><a href="../">Back to the Home Page</a></li>
+                    <li><a href="./">DDC Main Page</a></li>
                     <li><a href="./syllabus.html">Syllabus</a></li>
                     <li><a href="./calendar.html">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
@@ -66,7 +67,8 @@ let physnavbox = `
       <div class="navbox">
                 <h3>Table of Contents</h3>
                 <ul>
-                    <li><a href="./">APSci Home Page</a></li>
+                    <li><a href="../">Back to the Home Page</a></li>
+                    <li><a href="./">APSci Main Page</a></li>
                     <li><a href="./syllabus.html">Syllabus</a></li>
                     <li><a href="./calendar.html">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
@@ -137,6 +139,8 @@ let navbox = `
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./vocabreview.html">Vocabulary Review</a></li>
                     <li><a href="./citations.html">Cite Your Sources</a></li>
+                    <li><a href="./physical-science.html">Apologia Physical Science</a></li>
+                    <li><a href="./chemistry.html">Discovering Design with Chemistry</a></li>
                 </ul>
             </div>`;
 
