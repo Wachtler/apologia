@@ -139,8 +139,8 @@ let navbox = `
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./vocabreview.html">Vocabulary Review</a></li>
                     <li><a href="./citations.html">Cite Your Sources</a></li>
-                    <li><a href="./physical-science.html">Apologia Physical Science</a></li>
-                    <li><a href="./chemistry.html">Discovering Design with Chemistry</a></li>
+                    <li><a href="./physical-science/">Apologia Physical Science</a></li>
+                    <li><a href="./chemistry/">Discovering Design with Chemistry</a></li>
                 </ul>
             </div>`;
 
