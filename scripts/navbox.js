@@ -146,7 +146,7 @@ let navbox = `
 
 function check() {
 	var a;
-    elements = document.getElementsByClassName('title');
+    var elements = document.getElementsByClassName('title');
     if (location.href.includes("chemistry")) {
     	a = "darkgreen";
     } else if (location.href.includes("physical")) {
