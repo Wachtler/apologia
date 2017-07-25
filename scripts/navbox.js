@@ -151,7 +151,7 @@ function check() {
     } else if (location.href.includes("physical")) {
     	a = "teal";
     } else {
-    	a = "teal";
+    	a = "blue";
     }
     var elements = document.getElementsByClassName('title');
     for (var i = 0; i < elements.length; i++) {
@@ -163,7 +163,7 @@ function check() {
     } else if (location.href.includes("physical")) {
     	a = "mediumturquoise";
     } else {
-    	a = "mediumturquoise";
+    	a = "royalblue";
     }
     var elements = document.getElementsByClassName('.subtitle');
     for (var i = 0; i < elements.length; i++) {
