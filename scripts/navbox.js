@@ -13,7 +13,7 @@ let chemnavbox = `
                 </ul>
                 <ul>
                     <li>
-                        <a href="./chapter.html" class="small">CHAPTER #1: Measuring Up</a>
+                        <a href="./chapter1.html" class="small">CHAPTER #1: Measuring Up</a>
                     </li>
                     <li>
                         <a href="./chapter2.html" class="small">CHAPTER #2: What's the Matter?</a>
