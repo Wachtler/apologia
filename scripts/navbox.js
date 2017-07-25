@@ -13,52 +13,52 @@ let chemnavbox = `
                 </ul>
                 <ul>
                     <li>
-                        <a href="./module1.html" class="small">MODULE #1: The Basics</a>
+                        <a href="./module1.html" class="small">MODULE #1: Measuring Up</a>
                     </li>
                     <li>
-                        <a href="./module2.html" class="small">MODULE #2: Air</a>
+                        <a href="./module2.html" class="small">MODULE #2: What's the Matter?</a>
                     </li>
                     <li>
-                        <a href="./module3.html" class="small">MODULE #3: The Atmosphere</a>
+                        <a href="./module3.html" class="small">MODULE #3: Making Sense of Atoms and Elements</a>
                     </li>
                     <li>
-                        <a href="./module4.html" class="small">MODULE #4: The Wonder of Water </a>
+                        <a href="./module4.html" class="small">MODULE #4: The Modern View of Atoms and Their Chemistry</a>
                     </li>
                     <li>
-                        <a href="./module5.html" class="small">MODULE #5: The Hydrosphere</a>
+                        <a href="./module5.html" class="small">MODULE #5: Covalent Compounds and Their Molecular Geometry</a>
                     </li>
                     <li>
-                        <a href="./module6.html" class="small">MODULE #6: Earth and the Lithosphere</a>
+                        <a href="./module6.html" class="small">MODULE #6: Physical and Chemical Change</a>
                     </li>
                     <li>
-                        <a href="./module7.html" class="small">MODULE #7: Factors That Affect Earth’s Weather </a>
+                        <a href="./module7.html" class="small">MODULE #7: Stoichiometry</a>
                     </li>
                     <li>
-                        <a href="./module8.html" class="small">MODULE #8: Weather and Its Prediction </a>
+                        <a href="./module8.html" class="small">MODULE #8: Still More on Stoichiometry</a>
                     </li>
                     <li>
-                        <a href="./module9.html" class="small">MODULE #9: An Introduction to the Physics of Motion</a>
+                        <a href="./module9.html" class="small">MODULE #9: Chemists Have Solutions</a>
                     </li>
                     <li>
-                        <a href="./module10.html" class="small">MODULE #10: Newton’s Laws </a>
+                        <a href="./module10.html" class="small">MODULE #10: It’s a Gas! </a>
                     </li>
                     <li>
-                        <a href="./module11.html" class="small">MODULE #11: The Forces in Creation - Part 1</a>
+                        <a href="./module11.html" class="small">MODULE #11: Some Pretty Basic (and Acidic) Chemicals</a>
                     </li>
                     <li>
-                        <a href="./module12.html" class="small">MODULE #12: The Forces in Creation - Part 2</a>
+                        <a href="./module12.html" class="small">MODULE #12: Reduction and Oxidation</a>
                     </li>
                     <li>
-                        <a href="./module13.html" class="small">MODULE #13: The Forces in Creation - Part 3</a>
+                        <a href="./module13.html" class="small">MODULE #13: The Heat is On</a>
                     </li>
                     <li>
-                        <a href="./module14.html" class="small">MODULE #14: Waves and Sound </a>
+                        <a href="./module14.html" class="small">MODULE #14: Thermodynamics</a>
                     </li>
                     <li>
-                        <a href="./module15.html" class="small">MODULE #15: Light </a>
+                        <a href="./module15.html" class="small">MODULE #15: Kinetics</a>
                     </li>
                      <li>
-                        <a href="./module16.html" class="small">MODULE #16: An Introduction to Astrophysics    </a>
+                        <a href="./module16.html" class="small">MODULE #16: Chemical Equilibrium</a>
                     </li>
                 </ul>
             </div>`;
