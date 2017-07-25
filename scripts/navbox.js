@@ -146,15 +146,26 @@ let navbox = `
 
 function check() {
 	var a;
-    var elements = document.getElementsByClassName('title');
     if (location.href.includes("chemistry")) {
-    	a = "darkgreen";
+    	a = "limegreen";
     } else if (location.href.includes("physical")) {
-    	a = "#329999";
+    	a = "teal";
     } else {
-    	a = "#329999";
+    	a = "teal";
+    }
+    var elements = document.getElementsByClassName('title');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.backgroundColor=a;
     }
     
+    if (location.href.includes("chemistry")) {
+    	a = "lightseagreen";
+    } else if (location.href.includes("physical")) {
+    	a = "mediumturquoise";
+    } else {
+    	a = "mediumturquoise";
+    }
+    var elements = document.getElementsByClassName('.subtitle');
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.backgroundColor=a;
     }
