@@ -13,52 +13,52 @@ let chemnavbox = `
                 </ul>
                 <ul>
                     <li>
-                        <a href="./module1.html" class="small">CHAPTER #1: Measuring Up</a>
+                        <a href="./chapter.html" class="small">CHAPTER #1: Measuring Up</a>
                     </li>
                     <li>
-                        <a href="./module2.html" class="small">CHAPTER #2: What's the Matter?</a>
+                        <a href="./chapter2.html" class="small">CHAPTER #2: What's the Matter?</a>
                     </li>
                     <li>
-                        <a href="./module3.html" class="small">CHAPTER #3: Making Sense of Atoms and Elements</a>
+                        <a href="./chapter3.html" class="small">CHAPTER #3: Making Sense of Atoms and Elements</a>
                     </li>
                     <li>
-                        <a href="./module4.html" class="small">CHAPTER #4: The Modern View of Atoms and Their Chemistry</a>
+                        <a href="./chapter4.html" class="small">CHAPTER #4: The Modern View of Atoms and Their Chemistry</a>
                     </li>
                     <li>
-                        <a href="./module5.html" class="small">CHAPTER #5: Covalent Compounds and Their Molecular Geometry</a>
+                        <a href="./chapter5.html" class="small">CHAPTER #5: Covalent Compounds and Their Molecular Geometry</a>
                     </li>
                     <li>
-                        <a href="./module6.html" class="small">CHAPTER #6: Physical and Chemical Change</a>
+                        <a href="./chapter6.html" class="small">CHAPTER #6: Physical and Chemical Change</a>
                     </li>
                     <li>
-                        <a href="./module7.html" class="small">CHAPTER #7: Stoichiometry</a>
+                        <a href="./chapter7.html" class="small">CHAPTER #7: Stoichiometry</a>
                     </li>
                     <li>
-                        <a href="./module8.html" class="small">CHAPTER #8: Still More on Stoichiometry</a>
+                        <a href="./chapter8.html" class="small">CHAPTER #8: Still More on Stoichiometry</a>
                     </li>
                     <li>
-                        <a href="./module9.html" class="small">CHAPTER #9: Chemists Have Solutions</a>
+                        <a href="./chapter9.html" class="small">CHAPTER #9: Chemists Have Solutions</a>
                     </li>
                     <li>
-                        <a href="./module10.html" class="small">CHAPTER #10: It’s a Gas! </a>
+                        <a href="./chapter10.html" class="small">CHAPTER #10: It’s a Gas! </a>
                     </li>
                     <li>
-                        <a href="./module11.html" class="small">CHAPTER #11: Some Pretty Basic (and Acidic) Chemicals</a>
+                        <a href="./chapter11.html" class="small">CHAPTER #11: Some Pretty Basic (and Acidic) Chemicals</a>
                     </li>
                     <li>
-                        <a href="./module12.html" class="small">CHAPTER #12: Reduction and Oxidation</a>
+                        <a href="./chapter12.html" class="small">CHAPTER #12: Reduction and Oxidation</a>
                     </li>
                     <li>
-                        <a href="./module13.html" class="small">CHAPTER #13: The Heat is On</a>
+                        <a href="./chapter13.html" class="small">CHAPTER #13: The Heat is On</a>
                     </li>
                     <li>
-                        <a href="./module14.html" class="small">CHAPTER #14: Thermodynamics</a>
+                        <a href="./chapter14.html" class="small">CHAPTER #14: Thermodynamics</a>
                     </li>
                     <li>
-                        <a href="./module15.html" class="small">CHAPTER #15: Kinetics</a>
+                        <a href="./chapter15.html" class="small">CHAPTER #15: Kinetics</a>
                     </li>
                      <li>
-                        <a href="./module16.html" class="small">CHAPTER #16: Chemical Equilibrium</a>
+                        <a href="./chapter16.html" class="small">CHAPTER #16: Chemical Equilibrium</a>
                     </li>
                 </ul>
             </div>`;
