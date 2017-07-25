@@ -151,7 +151,7 @@ function check() {
     } else if (location.href.includes("physical")) {
     	a = "teal";
     } else {
-    	a = "blue";
+    	a = "royalblue";
     }
     var elements = document.getElementsByClassName('title');
     for (var i = 0; i < elements.length; i++) {
