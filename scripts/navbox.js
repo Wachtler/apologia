@@ -144,6 +144,22 @@ let navbox = `
                 </ul>
             </div>`;
 
+function check() {
+	var a;
+    elements = document.getElementsByClassName('title');
+    if (location.href.includes("chemistry")) {
+    	a = "darkgreen";
+    } else if (location.href.includes("physical")) {
+    	a = "#329999";
+    } else {
+    	a = "#329999";
+    }
+    
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.backgroundColor=a;
+    }
+}
+
 function addNavbox() {
     // Save current innerHTML
     let currentHTML = document.getElementsByClassName("container")[0].innerHTML;
@@ -159,4 +175,9 @@ function addNavbox() {
     document.getElementsByClassName("container")[0].innerHTML = nav + currentHTML;
 };
 
-window.addEventListener("load", addNavbox);
+function start(){
+	check();
+	addNavbox();
+}
+
+window.addEventListener("load", start);
