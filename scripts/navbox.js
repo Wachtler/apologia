@@ -6,7 +6,7 @@ let chemnavbox = `
                 <ul>
                     <li><a href="../">Back to the Home Page</a></li>
                     <li><a href="./">DDC Main Page</a></li>
-                    <li><a href="./syllabus.html">Syllabus</a></li>
+                    <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.html">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./honorcode.html">Honor Code</a></li>
@@ -69,7 +69,7 @@ let physnavbox = `
                 <ul>
                     <li><a href="../">Back to the Home Page</a></li>
                     <li><a href="./">APSci Main Page</a></li>
-                    <li><a href="./syllabus.html">Syllabus</a></li>
+                    <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.html">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./yourexperiment.html">Your Science Experiment</a></li>
@@ -132,7 +132,6 @@ let navbox = `
                 <h3>Table of Contents</h3>
                 <ul>
                     <li><a href="./">Main Page</a></li>
-                    <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./physical-science/">Apologia Physical Science</a></li>
                     <li><a href="./chemistry/">Discovering Design with Chemistry</a></li>
