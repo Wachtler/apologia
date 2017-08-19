@@ -7,7 +7,7 @@ let chemnavbox = `
                     <li><a href="../">Back to the Home Page</a></li>
                     <li><a href="./">DDC Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
-                    <li><a href="./calendar.html">Calendar</a></li>
+                    <li><a href="./calendar.pdf">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
                 </ul>
                 <ul>
@@ -69,7 +69,7 @@ let physnavbox = `
                     <li><a href="../">Back to the Home Page</a></li>
                     <li><a href="./">APSci Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
-                    <li><a href="./calendar.html">Calendar</a></li>
+                    <li><a href="./calendar.pdf">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./yourexperiment.html">Your Science Experiment</a></li>
                     <li><a href="./vocabreview.html">Vocabulary Review</a></li>
