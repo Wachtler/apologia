@@ -9,7 +9,6 @@ let chemnavbox = `
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.html">Calendar</a></li>
                     <li><a href="./weekly.html">Weekly Assignments</a></li>
-                    <li><a href="./honorcode.html">Honor Code</a></li>
                 </ul>
                 <ul>
                     <li>
