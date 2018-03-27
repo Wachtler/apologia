@@ -8,7 +8,6 @@ let chemnavbox = `
                     <li><a href="./">DDC Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.pdf">Calendar</a></li>
-                    <li><a href="./weekly.html">Weekly Assignments</a></li>
                 </ul>
                 <ul>
                     <li>
@@ -70,7 +69,6 @@ let physnavbox = `
                     <li><a href="./">APSci Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.pdf">Calendar</a></li>
-                    <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./yourexperiment.html">Your Science Experiment</a></li>
                     <li><a href="./vocabreview.html">Vocabulary Review</a></li>
                 </ul>
