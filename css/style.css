@@ -44,7 +44,7 @@ li:first-child {
 }
 
 .top .title {
-    background-color:#329999;
+    background-color:royalblue;
     height:50px;
 }
 
@@ -54,7 +54,21 @@ li:first-child {
     vertical-align: top;
 }
 
+.top .chemistry {
+	background-color:limegreen;
+    height:50px;
+    vertical-align: top;
+}
+
+.top .physical-science {
+	background-color:teal;
+    height:50px;
+    vertical-align: top;
+}
+
 p:target { background: yellow; }
+
+img { display: block; }
 
 .r:link {color: black;text-decoration: none;}      /* unvisited link */
 .r:visited {color: black;text-decoration: none;}   /* visited link */
