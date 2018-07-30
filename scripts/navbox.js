@@ -152,7 +152,7 @@ function check() {
     if (location.href.includes("chemistry")) {
     	a = "lightgreen";
     } else if (location.href.includes("physical")) {
-    	a = "mediumturquoise";
+    	a = "#B5FCF3";
     } else {
     	a = "royalblue";
     }
