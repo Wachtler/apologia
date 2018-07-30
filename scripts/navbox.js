@@ -131,7 +131,7 @@ let navbox = `
                     <li><a href="./">Main Page</a></li>
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./physical-science/">Apologia Physical Science</a></li>
-                    <li><a href="./chemistry/">Discovering Design with Chemistry</a></li>
+                    <li><a href="./chemistry/">Chemistry</a></li>
                 </ul>
             </div>`;
 
@@ -140,7 +140,7 @@ function check() {
     if (location.href.includes("chemistry")) {
     	a = "limegreen";
     } else if (location.href.includes("physical")) {
-    	a = "teal";
+    	a = "#0ADDC3";
     } else {
     	a = "royalblue";
     }
