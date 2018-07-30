@@ -156,7 +156,7 @@ function check() {
     } else {
     	a = "royalblue";
     }
-    var elements = document.getElementsByClassName('.subtitle');
+    var elements = document.getElementsByClassName('subtitle');
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.backgroundColor=a;
     }
