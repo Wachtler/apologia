@@ -1,2 +1,1 @@
-# apologia
-A repository of scientific links and videos for Physical Science and Chemistry.
+A repository of physical science class materials, based on the Apologia textbook by Wile. Currently hosted on `wachtler.github.io/apologia`.
