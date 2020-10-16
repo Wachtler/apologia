@@ -1,2 +1,1 @@
-# apologia
-...read the name
+A repository of physical science class materials, based on the Apologia textbook by Wile. Currently hosted on `wachtler.github.io/apologia`.

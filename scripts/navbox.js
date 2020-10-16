@@ -8,7 +8,6 @@ let chemnavbox = `
                     <li><a href="./">DDC Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.pdf">Calendar</a></li>
-                    <li><a href="./weekly.html">Weekly Assignments</a></li>
                 </ul>
                 <ul>
                     <li>
@@ -70,7 +69,6 @@ let physnavbox = `
                     <li><a href="./">APSci Main Page</a></li>
                     <li><a href="./syllabus.pdf">Syllabus</a></li>
                     <li><a href="./calendar.pdf">Calendar</a></li>
-                    <li><a href="./weekly.html">Weekly Assignments</a></li>
                     <li><a href="./yourexperiment.html">Your Science Experiment</a></li>
                     <li><a href="./vocabreview.html">Vocabulary Review</a></li>
                 </ul>
@@ -133,7 +131,6 @@ let navbox = `
                     <li><a href="./">Main Page</a></li>
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./physical-science/">Apologia Physical Science</a></li>
-                    <li><a href="./chemistry/">Discovering Design with Chemistry</a></li>
                 </ul>
             </div>`;
 
@@ -142,7 +139,7 @@ function check() {
     if (location.href.includes("chemistry")) {
     	a = "limegreen";
     } else if (location.href.includes("physical")) {
-    	a = "teal";
+    	a = "#0ADDC3";
     } else {
     	a = "royalblue";
     }
@@ -154,11 +151,11 @@ function check() {
     if (location.href.includes("chemistry")) {
     	a = "lightgreen";
     } else if (location.href.includes("physical")) {
-    	a = "mediumturquoise";
+    	a = "#B5FCF3";
     } else {
     	a = "royalblue";
     }
-    var elements = document.getElementsByClassName('.subtitle');
+    var elements = document.getElementsByClassName('subtitle');
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.backgroundColor=a;
     }
