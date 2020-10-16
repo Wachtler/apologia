@@ -131,7 +131,6 @@ let navbox = `
                     <li><a href="./">Main Page</a></li>
                     <li><a href="./honorcode.html">Honor Code</a></li>
                     <li><a href="./physical-science/">Apologia Physical Science</a></li>
-                    <li><a href="./chemistry/">Chemistry</a></li>
                 </ul>
             </div>`;
 
